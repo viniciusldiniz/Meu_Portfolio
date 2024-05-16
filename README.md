@@ -1,4 +1,4 @@
-<img src="https://ibb.co/qRpThTP" style="border: 2px solid #000; box-shadow: 5px 5px 5px #888888; width: 1000px; height: 500px;" />
+<img src="https://i.ibb.co/nDjx4x5/portifolionovo.png" style="border: 2px solid #000; box-shadow: 5px 5px 5px #888888; width: 1000px; height: 500px;" />
 
 # Meu portfolio 
 
