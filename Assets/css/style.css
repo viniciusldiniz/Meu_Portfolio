@@ -213,6 +213,12 @@ article.active {
   text-transform: capitalize;
 }
 
+.certificado{
+  color: var(--white-2);
+  text-transform: capitalize;
+  font-size: 15px;
+  text-align: center;
+}
 .h2 { font-size: var(--fs-1); }
 
 .h3 { font-size: var(--fs-2); }
@@ -1133,3 +1139,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }}
+
+.link-certificado {
+  text-decoration: none;
+  font: 13pt bold corda, sans-serif; /* 'corda' as the preferred font, fallback to sans-serif */
+  color: gold; 
+}
+
