@@ -1,519 +1,795 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+  <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinicius L.Diniz</title>
-    <!--- favicon-->
-    <link rel="shortcut icon" href="Assets/images/logo.svg" type="image/x-icon">
-    <!--- custom css link-->
-    <link rel="stylesheet" href="Assets/css/style.css">
-    <!--- google font link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Vinicius L.Diniz</title>
 
-<body>
-    <!--- #MAIN-->
-    <main>
-        <!--- #SIDEBAR-->
+      <link rel="shortcut icon" href="assets/images/android-chrome-512x512.png" type="image/x-icon">
+
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/images/android-chrome-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+      <!---MAIN--->
+      <main>
+        <!---SIDEBAR--->
         <aside class="sidebar" data-sidebar>
+          <div class="sidebar-info">
 
-            <div class="sidebar-info">
+            <figure class="avatar-box"> <!---mudar a foto ! -->
+              <img src="assets/images/my-avatar.png" alt="Vinicius Lessa" width="80">
+            </figure>
 
-                <figure class="avatar-box">
-                    <img src="Assets/images/my-avatar.png" alt="Vinicius L. Diniz" width="80">
-                </figure>
+            <div class="info-content">
+              <h1 class="name" title="Vinicius L. Diniz">Vinicius L.Diniz</h1>
 
-                <div class="info-content">
-                    <h1 class="name" title="Vinicius L. Diniz">Vinicius L.
-                        Diniz</h1>
+              <p class="title">Dev. Fron-End Jr.</p>
+            </div>
 
-                    <p class="title">Dev. Fron-End Jr.
-                    </p>
+            <button class="info_more-btn" data-sidebar-btn>
+              <span>Mostrar contatos</span> <!-- para tela menor-->
+
+              <ion-icon name="chevron-down"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="sidebar-info_more">
+
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+              <li class="contact-item">
+
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
                 </div>
 
-                <button class="info_more-btn" data-sidebar-btn>
-                    <span>Show Contacts</span>
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
 
-                    <ion-icon name="chevron-down"></ion-icon>
-                </button>
+                  <a href="mailto:viniciusld.dev@gmail.com" class="contact-link">viniciusld.dev@gma...</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Tel</p>
 
-            </div>
+                  <a href="https://wa.me/5521995347533?text=Ol%C3%A1%2C+Vim+direto+do+seu+Portfolio." target="_blank"
+                    class="contact-link">(21) 99534-7533</a>
+                </div>
+              </li>
+              <li class="contact-item">
 
-            <div class="sidebar-info_more">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
 
-                <div class="separator"></div>
+                <div class="contact-info">
+                  <p class="contact-title">Localização</p>
 
-                <ul class="contacts-list">
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </div>
+                  <address>Rio de Janeiro, BR</address>
+                </div>
 
-                        <div class="contact-info">
-                            <p class="contact-title">Email</p>
+              </li>
+            </ul>
+            <div class="separator"></div>
 
-                            <a href="mailto:viniciusld.dev@gmail.com" class="contact-link">viniciusld.dev@gmail.com</a>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="phone-portrait-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Tel</p>
-
-                            <a href="https://wa.me/5521995347533?text=Ol%C3%A1%2C+Vim+direto+do+seu+Portfolio."
-                                target="_blank" class="contact-link">(21) 99534-7533</a>
-                        </div>
-
-                    </li>
+            <ul class="social-list">
+              <!--MIDIA SOCIAL-->
+              <li class="social-item">
+                <a href="https://www.linkedin.com/in/vin%C3%ADcius-lessa-55b21b176/" title="Meu linkedin" target="_blank"
+                  class="social-link">
 
 
+                  <img src="https://img.icons8.com/?size=100&id=IuI5Yd3J3qcC&format=png&color=737373" alt="Download CV"
+                    width="34" height="34" title="Linkedin">
+                </a>
+              </li>
 
-                    <li class="contact-item">
+              <li class="social-item">
+                <a href="https://github.com/viniciusldiniz" title="Meu Github" target="_blank" class="social-link">
 
-                        <div class="icon-box">
-                            <ion-icon name="location-outline"></ion-icon>
-                        </div>
+                  <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=737373" alt="Download CV" width="34"
+                    height="34" title="Github"> </a>
+              </li>
 
-                        <div class="contact-info">
-                            <p class="contact-title">Localização</p>
 
-                            <address>Rio de Janeiro, BR</address>
-                        </div>
+              <li class="social-item">
+                <a href="https://drive.google.com/file/d/1TxVUFmCHHkyRXAQ2c-agcazW5qhVTFdu/view?usp=drive_link"
+                  target="_blank" class="social-link">
 
-                    </li>
-
-                </ul>
-
-                <div class="separator"></div>
-
-                <ul class="social-list"> <!--MIDIA SOCIAL-->
-
-                    <li class="social-item">
-                        <a href="https://www.linkedin.com/in/vin%C3%ADcius-lessa-55b21b176/" title="Meu linkedin"
-                            target="_blank" class="social-link">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li class="social-item">
-                        <a href="https://github.com/viniciusldiniz" title="Meu Github" target="_blank"
-                            class="social-link">
-                            <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="https://drive.usercontent.google.com/uc?id=1RzztjyH67Q-Jad5uTV762V1V_jElRr-r&export=download"
-                            target="_blank" class="social-link">
-                            <ion-icon name="document-text-outline"></ion-icon>
-                            <span class="tooltip"> Curriculum vitae</span>
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
-
+                  <img src="https://img.icons8.com/?size=100&id=20398&format=png&color=737373" alt="Download CV" width="34"
+                    height="34" title="currículo">
+                </a>
+              </li>
+            </ul>
+          </div>
         </aside>
-
-        <!--- #main-content-->
+        <!--- conteúdo principal---->
 
         <div class="main-content">
+          <!--- NAVBAr -->
+          <nav class="navbar">
 
-            <!--- #NAVBAR-->
+            <ul class="navbar-list">
 
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <button class="navbar-link  active" data-nav-link>About</button>
-                    </li>
+              <li class="navbar-item">
+                <button class="navbar-link  active" data-nav-link>About</button>
+              </li>
 
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Resume</button>
-                    </li>
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Resumo</button>
+              </li>
 
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Portfolio</button>
-                    </li>
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Projetos</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Certificações</button>
+              </li>
+
+            </ul>
+
+          </nav>
+          <!--- + Sobre Mim--->
+
+          <article class="about  active" data-page="about">
+
+            <header>
+              <h2 class="h2 article-title">Quem Sou Eu</h2>
+            </header>
+
+            <section class="about-text">
+              <p>
+                Olá, eu sou Vinícius Lessa, Graduado em Sistemas de Informação e com experiência em infraestrutura. Atualmente, estou me especializando em Desenvolvimento Back-End com Java e Spring Boot pelo SENAI, enquanto aprimoro minhas habilidades no Front-End, focando no framework Angular.
+              </p>
+              <p>
+                Minha paixão por jogos é a força motriz por trás da minha abordagem detalhada e criativa no desenvolvimento de software. Estou sempre ansioso por novos desafios que me permitam expandir meu conhecimento e contribuir para projetos inovadores.
+              </p>
+              <p>
+                Como Ex-Militar Fuzileiro Naval, desenvolvi habilidades de liderança, resiliência e trabalho em equipe que aplico no meu dia a dia profissional. Essas competências me ajudam a enfrentar desafios e a colaborar efetivamente em qualquer ambiente de trabalho.
+              </p>
+              
+
+             
+            </section>
+
+            <!-- o que eu faço -->
+
+            <section class="service">
+
+              <h3 class="h3 service-title">O que eu estou fazendo</h3>
+
+              <ul class="service-list">
+
+                <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <img src="assets/images/icon-design.svg
+                    " alt="design icon" width="40">
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web
+                      Design</h4>
+
+                    <p class="service-item-text">
+                      Estou sempre buscando desenvolver designs modernos e de alta qualidade, executados com excelência profissional..
+                    </p>
+                  </div>
+
+
+                </li>
+
+                <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <img src="assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web
+                      development</h4>
+
+                    <p class="service-item-text">
+                      Estou constantemente empenhado no desenvolvimento de websites de alta qualidade. </p>
+                  </div>
+
+                </li>
+
+                <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <img src="assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Apps mobile</h4>
+
+                    <p class="service-item-text">Estou comprometido com o aprendizado contínuo. Embora ainda não esteja envolvido no desenvolvimento de aplicativos, estou dedicando meu tempo para estudar e aprimorar minhas habilidades em desenvolvimento móvel a cada dia.
+                    </p>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </section>
+            <div class="overlay" data-overlay>
+              <button class="modal-close-btn" data-modal-close-btn></button> <!-- não mexer---->
+            </div>
+
+          </article>
+          <!--- RESUMO-->
+          <article class="resumo" data-page="resumo">
+
+            <header>
+              <h2 class="h2 article-title">Resumo</h2>
+            </header>
+
+            <section class="timeline">
+
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">Formação Educacional</h3>
+              </div>
+
+              <ol class="timeline-list">
+
+                <li class="timeline-item">
+
+
+
+                  <h4 class="h4 timeline-item-title">Universidade Estacio de Sá</h4>
+
+                  <span>Sistemas de Informação 2017 — 2020</span>
+
+                  <p class="timeline-text">
+                    Pouco conhecimento faz com que as pessoas se sintam orgulhosas.
+                    Muito conhecimento, que se sintam humildes.
+                    É assim que as espigas sem grãos erguem desdenhosamente a cabeça
+                    para o céu, enquanto que as cheias as baixam para a terra, sua mãe.
+                  </p>
+
+                </li>
+
+              </ol>
+
+            </section>
+
+            <section class="timeline">
+
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">Experiência Profissional</h3>
+              </div>
+
+              <ol class="timeline-list">
+
+                <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">Marinha do Brasil - Corpo de Fuzileiros Navais</h4>
+
+                  <span>2016 — 2024</span>
+                  <span> Cabo do Quadro de Infantaria</span><br>
+                  <p class="timeline-text">
+                     Durante os anos de 2016 a 2024, servi inicialmente como Recruta, Soldado e Cabo
+                    Fuzileiro Naval,enfrentando desafios físicos e mentais em uma variedade de operações. Aprendi lições
+                    valiosas de liderança,
+                    resiliência e camaradagem, enquanto participava de exercícios de treinamento e missões
+                    reais. Fui destacado para o Setor de Processamento de Dados (SPD), onde trabalhei com manutenção e infraestrutura, aprimorando minhas habilidades técnicas e contribuindo para a eficiência operacional da unidade.
+                    <br><br>Fui Honrado com uma <a href="##" class="link-sem-quebra" title=" Click aqui para visualizar"><u>Carta de
+                        Honra ao Mérito</u></a> da Marinha
+                    do Brasil por ter mantido um padrão de conduta profissional durante o meu tempo de
+                    serviço.
+                    Recebi também as Condecorações: </BR>
+
+                    </BR>
+                    <a href="https://drive.google.com/file/d/1wTb0kKQhmEZ2bKO5WPaehlOzRgOvTWgA/view?usp=sharing"
+                      target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar">1 -
+                      <u>Esplendor dos Heróis da Paz</u></a>
+                    </BR>
+                    <a href="https://drive.google.com/file/d/1dZoRLfBh03qVRSwShVj000p344LB1Q0C/view?usp=drive_link"
+                      target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar">2 -
+                      <u>Medalha
+                        Sentinela da Paz</u></a>
+                    </BR>
+                    <a href="https://drive.google.com/file/d/1LGZuOiHTV64WDWvds-fv2_4IsYVzdspb/view?usp=sharing"
+                      target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar">3 -
+                      <u>Mérito
+                        do Precursor da Paz</u></a>
+                    </BR>
+                    <a href="https://drive.google.com/file/d/13bnHXPVzA4HHg2c2LOgV4ozFXqVPJPck/view?usp=drive_link"
+                      target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar">4 -
+                      <u>Medalha
+                        de Campanha Operação Solidariedade COVID-19</u></a>
+                    </BR>
+                    <a href="https://drive.google.com/file/d/1voRcJSMZuUFxxFjtc101SIXSYfB_onpj/view?usp=sharing"
+                      target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar"> 5 -
+                      <u>Medalha
+                        do Mérito Policial 'Lei e Ordem.</u></a>
+                    </BR>
+                  </p>
+
+                </li>
+
+                <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">Essencia Life Farmácia de Manipulação </h4>
+
+                  <span>2015 — 2016</span>
+
+                  <p class="timeline-text">
+                    Desenvolvi habilidades significativas como administrador de redes durante o meu tempo
+                    livre, enquanto também adquiri experiência prática trabalhando como encapsulador.
+
+                  </p>
+
+                </li>
+
+              </ol>
+
+            </section>
+
+            <section class="skill">
+
+              <h3 class="h3 skills-title"> Minhas Habilidades</h3>
+
+              <ul class="skills-list content-card">
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">HTML5</h5>
+                    <data value="90">90%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">CSS</h5>
+                    <data value="70">70%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="skills-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">JavaScript</h5>
+                    <data value="80">80%</data>
+                  </div>
+
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+
+                </li>
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Git/Github</h5>
+                    <data value="90">90%</data>
+                  </div>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </section>
+
+          </article>
+          <!--- PROJETOS-->
+          <article class="projetos" data-page="projetos">
+
+            <header>
+              <h2 class="h2 article-title">Projetos</h2>
+            </header>
+
+            <section class="projects">
+
+              <ul class="filter-list">
+
+                <li class="filter-item">
+                  <button class="active" data-filter-btn>All</button>
+                </li>
+
+                <li class="filter-item">
+                  <button data-filter-btn>Web design</button>
+                </li>
+
+                <li class="filter-item">
+                  <button data-filter-btn>Applications</button>
+                </li>
+
+                <li class="filter-item">
+                  <button data-filter-btn>Web development</button>
+                </li>
+
+              </ul>
+
+              <div class="filter-select-box">
+
+                <button class="filter-select" data-select>
+
+                  <div class="select-value" data-selecct-value>Select category</div>
+
+                  <div class="select-icon">
+                    <ion-icon name="chevron-down"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="select-list">
+
+                  <li class="select-item">
+                    <button data-select-item>All</button>
+                  </li>
+
+                  <li class="select-item">
+                    <button data-select-item>Web design</button>
+                  </li>
+
+                  <li class="select-item">
+                    <button data-select-item>Applications</button>
+                  </li>
+
+                  <li class="select-item">
+                    <button data-select-item>Web development</button>
+                  </li>
 
                 </ul>
 
-            </nav>
+              </div>
 
-            <!--- #ABOUT-->
 
-            <article class="about  active" data-page="about">
-                <header>
-                    <h2 class="h2 article-title">Quem Sou Eu</h2>
-                </header>
 
-                <section class="about-text">
-                    <p>
-                        Olá, eu sou Vinícius Lessa, graduado em Sistemas de
-                        Informação e desenvolvedor front-end júnior. Desde a
-                        infância, minha fascinação por jogos e tecnologia
-                        cresceu, impulsionando minha escolha por essa
-                        empolgante
-                        carreira. Dedico-me a criar experiências envolventes
-                        como desenvolvedor front-end, utilizando JavaScript
-                        e
-                        TypeScript para aprimorar interfaces inovadoras.
-                    </p>
 
-                    <p>
-                        Minha paixão por jogos é a força motriz por trás da
-                        abordagem detalhada e criativa no desenvolvimento.
-                        Estou sempre ansioso por novos desafios que me
-                        permitam
-                        expandir meu conhecimento e contribuir para projetos
-                        empolgantes.
-                    </p>
-                </section>
+              <ul class="project-list">
 
-                <!--- service-->
+                <li class="project-item  active" data-filter-item data-category="web design">
+                  <a href="https://github.com/viniciusldiniz/trilha-css-desafio-01" target="_blank">
 
-                <section class="service">
-                    <!---NESSA PARTE EU POSSO MODIFICAR O CORPO ONDE ESTÁ AS COISAS QUE FAÇO-->
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-                    <h3 class="h3 service-title">O que eu estou fazendo</h3>
+                      <img src="assets/images/01.png" alt="Recriação e Aprimoramento de Projeto Prático de Desenvolvimento Web" loading="lazy">
+                    </figure>
 
-                    <ul class="service-list">
+                    <h3 class="project-title">Recriação e Aprimoramento de Projeto Prático de Desenvolvimento Web</h3>
 
-                        <li class="service-item">
+                    <p class="project-category">Web design</p>
 
-                            <div class="service-icon-box">
-                                <img src="Assets/images/icon-design.svg
-                                        " alt="design icon" width="40">
-                            </div>
+                  </a>
+                </li>
 
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Web
-                                    Design</h4>
+                <li class="project-item  active" data-filter-item data-category="web design">
+                  <a href="https://github.com/viniciusldiniz/Project--HTML"target="_blank">
 
-                                <p class="service-item-text">
-                                    Busco sempre o design mais moderno e de alta
-                                    qualidade feito a nível profissional.
-                                </p>
-                            </div>
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-                        </li>
+                      <img src="assets/images/03.png" alt="orizon" loading="lazy">
+                    </figure>
 
-                        <li class="service-item">
+                    <h3 class="project-title">Projec Glass</h3>
 
-                            <div class="service-icon-box">
-                                <img src="Assets/images/icon-dev.svg" alt="Web development icon" width="40">
-                            </div>
+                    <p class="project-category">Web design</p>
 
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Web
-                                    development</h4>
+                  </a>
+                </li>
 
-                                <p class="service-item-text">
-                                    Desenvolvimento de sites de com
-                                    qualidade . </p>
-                            </div>
+                <li class="project-item  active" data-filter-item data-category="web design">
+                  <a href="#"target="_blank">
 
-                        </li>
-                        </li>
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-                    </ul>
-                    <br>
-                    <li class="service-item" title="clique aqui"><a href="Certificados.html">
-                            <div class="service-icon-box">
-                                <img src="Assets/images/146280.svg" alt="Web development icon" width="90">
-                            </div>
-                            <h3 class="h3 certificado">Minhas Certificações</h3>
-                        </a>
-                    </li>
+                      <img src="assets/images/04.png" alt="Recriando Wikipedia" loading="lazy">
+                    </figure>
 
+                    <h3 class="project-title">Recriando Wikipedia</h3>
 
+                    <p class="project-category">Web design</p>
 
+                  </a>
+                </li>
 
+    <!--            <li class="project-item  active" data-filter-item data-category="applications">
+                  <a href="#">
 
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
+                      <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                    </figure>
 
+                    <h3 class="project-title">Brawlhalla</h3>
 
-                </section>
+                    <p class="project-category">Applications</p>
 
-                <div class="modal-container" data-modal-container>
+                  </a>
+                </li>
 
-                    <div class="overlay" data-overlay></div>
+                <li class="project-item  active" data-filter-item data-category="web design">
+                  <a href="#">
 
-                    <button class="modal-close-btn" data-modal-close-btn>
-                        <div class="modal-img-wrapper"></div>
-                        <div class="modal-content"></div>
-                        <div data-modal-text> </div>
-                </div>
-            </article>
-
-            <!--- #RESUME -->
-
-            <article class="resume" data-page="resume">
-
-                <header>
-                    <h2 class="h2 article-title">Resumo</h2>
-                </header>
-
-                <section class="timeline">
-
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Formação Educacional </h3>
-                    </div>
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-                    <ol class="timeline-list">
+                      <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                    </figure>
 
-                        <li class="timeline-item">
+                    <h3 class="project-title">DSM.</h3>
 
-                            <h4 class="h4 timeline-item-title">Universidade Estacio de Sá</h4>
+                    <p class="project-category">Web design</p>
 
-                            <span>Sistemas de Informação 2017 — 2020</span>
+                  </a>
+                </li>
 
-                            <p class="timeline-text">
-                                Pouco conhecimento faz com que as pessoas se sintam orgulhosas.
-                                Muito conhecimento, que se sintam humildes.
-                                É assim que as espigas sem grãos erguem desdenhosamente a cabeça
-                                para o céu, enquanto que as cheias as baixam para a terra, sua mãe.
-                            </p>
+                <li class="project-item  active" data-filter-item data-category="web design">
+                  <a href="#">
 
-                        </li>
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-                    </ol>
-
-                </section>
-
-                <section class="timeline">
-
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline"></ion-icon>
-                        </div>
-
-                        <h3 class="h3">Experiência Profissional </h3>
-                    </div>
-
-                    <ol class="timeline-list">
-                        <li class="timeline-item">
-                            <p class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Marinha do Brasil - Corpo de Fuzileiros Navais</h4>
-
-                            <span>2016 — 2024</span>
-                            <span> Cabo do Quadro de Infantaria</span><br>
-                            <p class="timeline-text">
-                                Durante os anos de 2016 a 2024, servi inicialmente como Recruta, Soldado e Cabo
-                                fuzileiro naval,
-                                enfrentando desafios físicos e mentais em uma variedade de operações. Aprendi lições
-                                valiosas de liderança,
-                                resiliência e camaradagem, enquanto participava de exercícios de treinamento e missões
-                                reais.
-                                Fui Honrado com uma <a href="##" class="link-sem-quebra"
-                                    title=" Click aqui para visualizar"><u>Carta de Honra ao Mérito</u></a> da Marinha
-                                do Brasil por ter mantido um padrão de conduta profissional durante o meu tempo de
-                                serviço.
-                                Recebi também as Condecorações: </BR>
-
-                                </BR>
-                                <a href="https://drive.google.com/file/d/1wTb0kKQhmEZ2bKO5WPaehlOzRgOvTWgA/view?usp=sharing"
-                                    target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar">1 -
-                                    <u>Esplendor dos Heróis da Paz</u></a>
-                                </BR>
-                                <a href="https://drive.google.com/file/d/1dZoRLfBh03qVRSwShVj000p344LB1Q0C/view?usp=drive_link"
-                                    target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar">2 -
-                                    <u>Medalha
-                                        Sentinela da Paz</u></a>
-                                </BR>
-                                <a href="https://drive.google.com/file/d/1LGZuOiHTV64WDWvds-fv2_4IsYVzdspb/view?usp=sharing"
-                                    target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar">3 -
-                                    <u>Mérito
-                                        do Precursor da Paz</u></a>
-                                </BR>
-                                <a href="https://drive.google.com/file/d/13bnHXPVzA4HHg2c2LOgV4ozFXqVPJPck/view?usp=drive_link"
-                                    target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar">4 -
-                                    <u>Medalha
-                                        de Campanha Operação Solidariedade COVID-19</u></a>
-                                </BR>
-                                <a href="https://drive.google.com/file/d/1voRcJSMZuUFxxFjtc101SIXSYfB_onpj/view?usp=sharing"
-                                    target="_blank" class="link-sem-quebra" title=" Click aqui para visualizar"> 5 -
-                                    <u>Medalha
-                                        do Mérito Policial 'Lei e Ordem.</u></a>
-                                </BR>
-                            </p>
-
-                            </l>
-
-                        <li class="timeline-item">
-
-                            <h4 class="h4 timeline-item-title">Essencia Life Farmácia de Manipulação </h4>
-
-                            <span>2015 — 2016</span>
-
-                            <p class="timeline-text">
-                                Desenvolvi habilidades significativas como administrador de redes durante o meu tempo
-                                livre, enquanto também adquiri experiência prática trabalhando como encapsulador.
-
-                            </p>
-
-                        </li>
-
-                    </ol>
-
-                </section>
-
-                <section class="skill">
-
-                    <h3 class="h3 skills-title">My skills</h3>
-
-                    <ul class="skills-list content-card">
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">HTML5</h5>
-                                <data value="90">90%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 90%;"></div>
-                            </div>
-
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">CSS</h5>
-                                <data value="70">70%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 70%;"></div>
-                            </div>
-
-                        </li>
-
-                        <li class="skills-item">
-
-                            <div class="title-wrapper">
-                                <h5 class="h5">JavaScript</h5>
-                                <data value="80">80%</data>
-                            </div>
-
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 80%;"></div>
-                            </div>
-
-                        </li>
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">Git/Github</h5>
-                                <data value="90">90%</data>
-                            </div>
-                            <div class="skill-progress-bg">
-                                <div class="skill-progress-fill" style="width: 90%;"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-            </article>
-            <article class="portfolio" data-page="portfolio">
-                <header>
-                    <h2 class="h2 article-title">Portfolio</h2>
-                </header>
-                <section class="projects">
-                    <ul class="filter-list">
-                        <li class="filter-item">
-                            <button class="active" data-filter-btn>All</button>
-                        </li>
-                        <li class="filter-item">
-                            <button data-filter-btn>Web development</button>
-                        </li>
-                        <li class="filter-item">
-                            <button data-filter-btn>Applications</button>
-                        </li>
-                    </ul>
-                    <div class="filter-select-box">
-                        <button class="filter-select" data-select>
-                            <div class="select-value" data-selecct-value>Select category</div>
-                            <div class="select-icon">
-                                <ion-icon name="chevron-down"></ion-icon>
-                            </div>
-                        </button>
-                        <ul class="select-list">
-                            <li class="select-item">
-                                <button data-select-item>All</button>
-                            </li>
-                            <li class="select-item">
-                                <button data-select-item>Web design</button>
-                            </li>
-                            <li class="select-item">
-                                <button data-select-item>Applications</button>
-                            </li>
-                            <li class="select-item">
-                                <button data-select-item>Web development</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <ul class="project-list">
-                        <li class="project-item  active" data-filter-item data-category="web design">
-                            <a href="https://github.com/viniciusldiniz/Project--HTML?tab=readme-ov-file"
-                                target="_blank">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-                                    <img src="Assets/images/6874747.png" alt="dsm." loading="lazy">
-                                </figure>
-                                <h3 class="project-title">Google Glass</h3>
-                                <p class="project-category">Web development</p>
-                            </a>
-                        </li>
-                        <li class="project-item  active" data-filter-item data-category="web design">
-                            <a href="https://github.com/viniciusldiniz/trilha-html-modulo-3" target="_blank">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-                                    <img src="Assets/images/project-1.png" alt="Copia da Wikipedia" loading="lazy" >
-                                </figure>
-                                <h3 class="project-title">Projeto Wikipedia - Dio.me</h3>
-                                <p class="project-category">Recriando Wikipedia, com um layout melhor </p>
-                            </a>
-                        </li>
-                        <li class="project-item  active" data-filter-item data-category="web design">
-                            <a href="https://github.com/viniciusldiniz/trilha-css-desafio-01" target="_blank">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline"></ion-icon>
-                                    </div>
-                                    <img src="Assets/images/Design sem nome.png" alt="Copia da Wikipedia" loading="lazy">
-                                </figure>
-                                <h3 class="project-title">Projeto Wikipedia - Dio.me</h3>
-                                <p class="project-category">Recriando Wikipedia, com um layout melhor </p>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </article>
-
-            <!--- custom js link-->
-            <script src="Assets/js/script.js"></script>
-
-            <!--- ionicon link-->
-            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                      <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">MetaSpark</h3>
+
+                    <p class="project-category">Web design</p>
+
+                  </a>
+                </li>
+
+                <li class="project-item  active" data-filter-item data-category="web development">
+                  <a href="#">
+
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">Summary</h3>
+
+                    <p class="project-category">Web development</p>
+
+                  </a>
+                </li>
+
+                <li class="project-item  active" data-filter-item data-category="applications">
+                  <a href="#">
+
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">Task Manager</h3>
+
+                    <p class="project-category">Applications</p>
+
+                  </a>
+                </li>
+
+                <li class="project-item  active" data-filter-item data-category="web development">
+                  <a href="#">
+
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">Arrival</h3>
+
+                    <p class="project-category">Web development</p>
+
+                  </a>
+                </li>-->
+
+              </ul>
+
+            </section>
+
+          </article>
+          <!--- certificações-->
+          <article class="certificacoes" data-page="certificações">
+            <header>
+              <h2 class="h2 article-title">Certificações</h2>
+            </header>
+            <section class="certificacoes-posts">
+              <header>
+
+              </header>
+              <h5 class="h5 article-title">Para visualizar, clique no nome correspondente abaixo:</h5>
+              <section class="about-text">
+                <ul>
+                  <li><a href="https://www.dio.me/certificate/GXJZED1P" target="_blank" class="link-certificado">Formação
+                      Github
+                      Certification(10H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/OOGBOKJQ" target="_blank" class="link-certificado">Formação
+                      HTML Web
+                      Developer(21H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/BFMHHTGY" target="_blank" class="link-certificado">Introdução
+                      à Plataforma
+                      Java</a></li>
+                  <li><a href="https://www.dio.me/certificate/KRHQ9Q7V" target="_blank" class="link-certificado">Boas-vindas
+                      ao Québec Java
+                      Digital</a></li>
+                  <li><a href="https://www.dio.me/certificate/UG20QBHZ" target="_blank" class="link-certificado">Ambiente de
+                      Desenvolvimento
+                      Java</a></li>
+                  <li><a href="https://www.dio.me/certificate/DEK3KCKV" target="_blank" class="link-certificado">Fundamentos
+                      de Business
+                      Intelligence (BI)</a></li>
+                  <li><a href="https://www.dio.me/certificate/ZUBZBNQF" target="_blank" class="link-certificado">Lógica de
+                      Programação Essencial
+                      ( 4H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/BHJEPIWO" target="_blank" class="link-certificado">Introdução
+                      a Análise de Dados
+                      com SQL (3H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/QKWH2D45" target="_blank" class="link-certificado">Fundamentos
+                      Teóricos Sobre ETL
+                      (1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/DYP77WRX" target="_blank" class="link-certificado">Príncipios
+                      do Git e
+                      Github(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/XLWSMGQX" target="_blank"
+                      class="link-certificado">Autenticações (1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/HIH3NZ7J" target="_blank" class="link-certificado">Colaboração
+                      no Github (1H)</a>
+                  </li>
+                  <li><a href="https://www.dio.me/certificate/RS0UALT2" target="_blank" class="link-certificado">Formatação
+                      com Markdown(1H)</a>
+                  </li>
+                  <li><a href="https://www.dio.me/certificate/IZ1TAVNP" target="_blank" class="link-certificado">Explorando
+                      Colaboração e
+                      Markdown(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/KRJXEJK4" target="_blank" class="link-certificado">Introdução
+                      aos Conceitos de Git
+                      e Github(6H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/IRJXGPTJ" target="_blank" class="link-certificado">Sobre
+                      Contas e Ferramentas do
+                      Github(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/JF6JHBBY" target="_blank" class="link-certificado">Gerenciando
+                      Seu Trabalho Com
+                      Github Projects(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/HX3A0VBT" target="_blank" class="link-certificado">Github
+                      Copilot(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/BP9PIRQP" target="_blank" class="link-certificado">Github
+                      Codespace(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/T4JWAJHH" target="_blank" class="link-certificado">Utilizando
+                      as Ferramentas do
+                      Github para Solucionar Algoritmos
+                      em Python(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/OIW3T7Y7" target="_blank" class="link-certificado">Produtos do
+                      Github(5H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/YFFBNWXA" target="_blank" class="link-certificado">Conhecendo
+                      a Administração do
+                      Github(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/H6QTD2NI" target="_blank" class="link-certificado">Utilizando
+                      Recursos do Github
+                      em um Projeto Open Source(2H)</a>
+                  </li>
+                  <li><a href="https://www.dio.me/certificate/FPKXT0NZ" target="_blank"
+                      class="link-certificado">Administração do Github(4H)</a>
+                  </li>
+                  <li><a href="https://www.dio.me/certificate/5Y4KPJ9U" target="_blank" class="link-certificado">Pensamento
+                      Computacional(2H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/T10D15EG" target="_blank" class="link-certificado">Entendendo
+                      Comunicação Client x
+                      Server(2H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/G3D1BLUI" target="_blank" class="link-certificado">Instalação
+                      e Configuração do
+                      Visual Studio Code(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/JWFWOTIW" target="_blank" class="link-certificado">Introdução
+                      ao HTML na
+                      Prática(2H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/CK3NJOEQ" target="_blank" class="link-certificado">Criar Uma
+                      Página Web Utilizando
+                      as Tags Aprendidas(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/FOSJGN2Z" target="_blank" class="link-certificado">Primeiros
+                      Passos com
+                      HTML(7H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/HFQEFR16" target="_blank" class="link-certificado">Trabalhando
+                      com Formulários em
+                      HTML(2H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/FAYCPG11" target="_blank"
+                      class="link-certificado">Estruturação seu HTML +
+                      Formatações(2H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/FSYAOOMM" target="_blank" class="link-certificado">Trabalhando
+                      com Mídias
+                      utilizando HTML(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/FSYAOOMM" target="_blank" class="link-certificado">Criando
+                      Tabelas com
+                      HTML(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/N80BTPKG" target="_blank" class="link-certificado">Criando seu
+                      Primeiro Site
+                      Completo com HTML(2H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/9D67HEHH" target="_blank" class="link-certificado">HTML I:
+                      Conceitos
+                      Básicos(9H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/PJCJ65K0" target="_blank" class="link-certificado">Entendendo
+                      HTML
+                      Semântico(2H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/KVUCAK3W" target="_blank" class="link-certificado">HTML:
+                      Recursos
+                      Especiais(2H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/WC9AXIYB" target="_blank" class="link-certificado">Recriando o
+                      Wikipedia com
+                      Layout Moderno(1H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/UKUM1FQH" target="_blank" class="link-certificado">HTML II:
+                      Ampliando o
+                      Conhecimento(7H)</a></li>
+                  <li><a href="https://www.dio.me/certificate/KWIDWYJY" target="_blank" class="link-certificado">Fundamentos
+                      do CSS(3H)</a></li>
+                </ul>
+              </section>
+          </article>
+        </div>
+      </main>
+
+  <!--- custom js link-->
+  <script src="assets/js/script.js"></script>
+
+  <!--- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
