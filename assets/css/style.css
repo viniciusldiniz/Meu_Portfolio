@@ -314,7 +314,7 @@
   \*-------------------------------*/
     .sidebar {
     margin-bottom: 15px;
-    max-height: 112px;
+    max-height: 132px;
     overflow: hidden;
     transition: var(--transition-2);
   }
@@ -368,7 +368,7 @@
     right: -8px;
     border-radius: 0 15px;
     font-size: 13px;
-    color: var(--orange-yellow-crayola);
+    color: hsl(0, 0%, 100%);
     background: var(--border-gradient-onyx);
     padding: 10px;
     box-shadow: var(--shadow-2);
@@ -1125,14 +1125,7 @@
     .certificacoes-banner-box {
       height: auto;
     }
-      .avatar-box {
-      border-radius: 30px;
-    }
-
-    .avatar-box img {
-      width: 120px;
-    }
-
+    
   }
 
   /*responsive larger than 580px screen*/
@@ -1188,7 +1181,7 @@
     /* #SIDEBAR */
 
     .sidebar {
-      max-height: 120px;
+      max-height: 10px;
       margin-bottom: 30px;
     }
 
