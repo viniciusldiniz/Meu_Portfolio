@@ -1,9 +1,4 @@
-  /*-------------- style css---------------------*\
-  \*---------------------------------------------*/
-
-  /*------------CUSTOM PROPERTY-----------------------*\
-  \*--------------------------------------------------*/
-
+/*style css*/
   :root {
     /* cores */
 
@@ -313,7 +308,7 @@
   /*-----------SIDEBAR-------------*\
   \*-------------------------------*/
     .sidebar {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     max-height: 132px;
     overflow: hidden;
     transition: var(--transition-2);
@@ -1125,7 +1120,7 @@
     .certificacoes-banner-box {
       height: auto;
     }
-    
+   
   }
 
   /*responsive larger than 580px screen*/
@@ -1181,7 +1176,7 @@
     /* #SIDEBAR */
 
     .sidebar {
-      max-height: 10px;
+      max-height: 130px;
       margin-bottom: 30px;
     }
 
