@@ -1,4 +1,4 @@
-<img src="" style="border: 2px solid #000; box-shadow: 5px 5px 5px #888888; width: 1000px; height: 500px;" />
+https://github.com/viniciusldiniz/meu-portfolio/assets/42078940/308f14aa-526b-4ea1-9939-b15fa984b5cf
 
 # Meu portfolio 
 
